@@ -7,7 +7,7 @@ This is the source code for ICLR 2021 paper under review *Weakly Supervised Form
 
 The code was written and tested on Python 3.8 and PyTorch 1.6.0. <br/>
 
-The other required libraries including :
+The other required libraries include :
 
 + json
 

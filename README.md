@@ -1,5 +1,4 @@
 # ReadMe
----
 
 This is the source code for ICLR 2021 paper under review *Weakly Supervised Formula Learner for Solving Mathematical Problems* <br/>
 

@@ -31,7 +31,7 @@ python ./data/math23/regularize.py
 
 ### MathQA
 
-For `MathQA`, download `MathQA.zip` from <https://math-qa.github.io/>. Extract `train.json` and `test.json` to `./data/mathqa`. Then run :
+For `MathQA`, download `MathQA.zip` from <https://math-qa.github.io/>. Extract `train.json` and `test.json` to `./data/mathqa/`. Then run :
 
 ```
 python ./data/mathqa/regularize.py
@@ -45,7 +45,7 @@ To start the training, run :
 python ./train.py
 ```
 
-The whole learning process may take a long time. You can interrupt it at any time you like by a keyboard interruption, and the search log and model weights will be saved to `./saves/$dataset$/`. The learning can be restarted by assigning the `load_search_log` and `policynet_load_weight` in `config.py`.
+The whole learning process may take a long time. You can interrupt it at any time you like by a keyboard interruption, then the search log and model weights will be saved to `./saves/$dataset$/`. The learning can be restarted by assigning the `load_search_log` and `policynet_load_weight` in `config.py`.
 
 ## Testing
 

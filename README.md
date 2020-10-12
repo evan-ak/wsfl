@@ -1,14 +1,18 @@
 # ReadMe
 
-This is the source code for ICLR 2021 paper under review *Weakly Supervised Formula Learner for Solving Mathematical Problems* <br/>
+This is the preview of the source code of *Weakly Supervised Formula Learner*. 
+
+<br/>
 
 # Environment
 
-The code was written and certified on Python 3.8 and PyTorch 1.6.0. <br/>
+The code was written and certified on Python 3.8 and PyTorch 1.6.0. 
 
 The other required libraries include :
 
 + json
+
+<br/>
 
 # Getting start
 
@@ -17,14 +21,16 @@ The other required libraries include :
 We provide the program `regularize.py` for data pre-processing.
 
 ### Math23K
-For `Math23K`, download `Math_23K.json` from `https://github.com/ShichaoSun/math_seq2tree` and put it into `./data/math23/`. Then run :
+
+For `Math23K`, download `Math_23K.json` from <https://github.com/ShichaoSun/math_seq2tree> and put it into `./data/math23/`. Then run :
 
 ```
 python ./data/math23/regularize.py
 ```
 
 ### MathQA
-For `MathQA`, download `MathQA.zip` from `https://math-qa.github.io/`. Extract `train.json` and `test.json` to `./data/mathqa`. Then run :
+
+For `MathQA`, download `MathQA.zip` from <https://math-qa.github.io/>. Extract `train.json` and `test.json` to `./data/mathqa`. Then run :
 
 ```
 python ./data/mathqa/regularize.py
@@ -32,7 +38,7 @@ python ./data/mathqa/regularize.py
 
 ## Training
 
-We provide the prepared search logs generated in our experiments in `./saves/$dataset$/`. You can decide whether to use them for a quick validation or to restart the learning from scratch by modifying the `load_search_log` config in `config.py`. Other configurations such as the dataset to use and the number of batches for training can also be modified in `config.py`. To start the training, run :
+To start the training, run :
 
 ```
 python ./train.py

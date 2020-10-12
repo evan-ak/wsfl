@@ -11,6 +11,7 @@ The code was written and certified on Python 3.8 and PyTorch 1.6.0.
 The other required libraries include :
 
 + json
++ numpy
 
 <br/>
 

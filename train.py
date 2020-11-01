@@ -278,7 +278,7 @@ def train(cfg) :
               elif memory[0][1] == 2 :
                 pid = int(memory[0][0])
                 step = int(memory[0][2])
-                accu = int(memory[0][3])
+                accu = float(memory[0][3])
                 if accu > 0 :
                   succ = 2 if accu >= cfg.actions_accept_boundary else 1
                   len_act = int(memory[1][0])

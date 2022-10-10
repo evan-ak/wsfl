@@ -35,7 +35,8 @@ class TotalConfig() :
       self.policynet_embedding_mask = self.local_path + "/data/math23/math23_vocab_mask"
       self.policynet_embedding_weight = self.local_path + "/data/math23/math23_vocab_weight"
       self.test_metric = ("5flod", "public")[0]
-      self.test_split_seed = "standard seed 0"
+      ## fix the split seed if you want to save and load search logs.
+      # self.test_split_seed = "some seed"
     if self.on_dataset == "mathqa" :
       self.path_data_train = self.local_path + "/data/mathqa/mathqa_train_reg.json"
       self.path_data_test = self.local_path + "/data/mathqa/mathqa_test_reg.json"
@@ -53,9 +54,9 @@ class TotalConfig() :
     self.policynet_load_weight = None
     # self.policynet_load_weight = self.local_path + "/saves/mathqa/savepoint_policynet_"
 
-    ## if you loaded only the search log but not the model weight, a retraining is recommended.
+    ## a retraining is recommended if you loaded only the search log but not the model weight.
     ## if both search log and model weight are loaded, retraining is not necessary.
-    self.policynet_retrain_after_load = (False, True)[1]
+    self.policynet_retrain_after_load = True
 
 
 class CustomData() :

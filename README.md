@@ -1,12 +1,12 @@
 # ReadMe
 
-This is the source code of the paper *Weakly Supervised Formula Learner for Solving Mathematical Problems*. 
+This is the source code for the paper *Weakly Supervised Formula Learner for Solving Mathematical Problems*. 
 
 <br/>
 
 # Environment
 
-The code was written and certified on Python 3.8 and PyTorch 1.6.0. 
+The code was written and verified on Python 3.8 and PyTorch 1.6.0. 
 
 The other required libraries include :
 

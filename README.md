@@ -1,6 +1,6 @@
 # ReadMe
 
-This is the preview of the source code of *Weakly Supervised Formula Learner*. 
+This is the source code of the paper *Weakly Supervised Formula Learner for Solving Mathematical Problems*. 
 
 <br/>
 

@@ -52,7 +52,7 @@ The whole learning process may take a long time. You can interrupt it at any tim
 To test the model, assign the `policynet_load_weight` in `config.py`. Then run :
 
 ```
-python ./test/py
+python ./test.py
 ```
 
 ## Using pre-trained word vectors
